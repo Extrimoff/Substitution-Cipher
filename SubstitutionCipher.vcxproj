@@ -199,10 +199,10 @@
     <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="bitmap1.bmp" />
-    <Image Include="C:\Users\Vladislav_Extrimov\Downloads\Eo_circle_red_asterisk.svg.ico" />
-    <Image Include="C:\Users\Vladislav_Extrimov\Downloads\Eo_circle_red_asterisk.svg.png" />
-    <Image Include="icon1.ico" />
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource.aps" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
